@@ -1,31 +1,37 @@
 import useEmblaCarousel from 'embla-carousel-react'
 import {ChevronLeft, ChevronRight } from 'lucide-react'
 
+import fotoCalca from '../../public/images/trico/foto-calca.jpg'
+import fotoCapinha from '../../public/images/trico/foto-capinha-capuz.jpg'
+import fotoSapatinho from '../../public/images/trico/foto-sapatinho.jpg'
+import fotoShorts from '../../public/images/trico/foto-shorts.jpg'
+import fotoTouca from '../../public/images/trico/foto-touca.jpg'
+
 const servic = [
     {
         title: "PANTUFA ADULTO",
-        
+        image: fotoCalca,
         
     },
     {
         title: "CACHECOL",
-       
+        image: fotoCapinha,
         
     },
     {
         title: "PANTUFA",
-      
+        image: fotoSapatinho,
        
     },
     {
         title: "CASAQUINHO INFANTIL",
-  
+        image: fotoShorts,
       
         
     },
     {
-            title: "CACHECOL MEIA ESTAÇÃO",
-         
+            title: "CACHECOL",
+            image: fotoTouca,
         
     },
 ]
@@ -77,7 +83,7 @@ function Services () {
                                                         
 
                                                         <div>
-                                                            <h1>aqui vai a foto</h1>
+                                                          <img src={item.image} alt="" className="w-40 h-40" />  
                                                         
                                                         </div>
 

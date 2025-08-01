@@ -2,28 +2,30 @@
 import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-
-
+import fotoChaveiro from '../../public/images/croche/foto-chaveiro.jpg'
+import fotoCoracao from '../../public/images/croche/foto-coracao.jpg'
+import fotoCropped from '../../public/images/croche/foto-cropped-infantil.jpg'
+import fotoPortaCopos from '../../public/images/croche/foto-porta-copos.jpg'
 
 const testimonials = [
   {
     author: "TOUCA PARA RECÉM NASCIDO",
-    
+    image: fotoChaveiro,
     
   },
   {
     author: "CHAVEIRO BOLA",
-    
+    image: fotoCoracao,
     
   },
   {
     author: "Quadrado clássico",
-    
+    image: fotoCropped,
    
   },
   {
     author: "Decoração de natal",
-    
+    image: fotoPortaCopos,
    
   },
 ];
@@ -60,7 +62,7 @@ function Testimonials() {
                         <p className="font-bold">{item.author}</p>
                        
                         <div>
-                          <h1>aqui vai a foto</h1>
+                          <img src={item.image} alt="" className="w-100 h-80" />  
                         </div>
 
                            <div className='rounded mt-4 bg-gray-500 hover:bg-gray-600 px-5 py-2'>
