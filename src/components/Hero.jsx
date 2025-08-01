@@ -3,9 +3,9 @@
 
 function Hero() {
   return (
-     <section className="text-white relative overflow-x-hidden">
+     <section className="text-white relative overflow-x-hidden bg-[url('../../public/foto-fundo.png')]">
            
-           
+         
 
             <div className="absolute inset-0 bg-black opacity-60">
 
