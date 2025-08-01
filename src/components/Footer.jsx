@@ -1,5 +1,5 @@
 import { FacebookLogo, InstagramLogo, YoutubeLogo } from "@phosphor-icons/react/dist/ssr";
-import fotopantufa from '../../public/foto-fundo.png'
+
 
 const brands = [
   {  title: "PANTUFA ADULTO",
@@ -34,7 +34,7 @@ function Footer() {
                   {item.title}
                  </div>
                  <div>
-                    <img src="/foto-fundo.png" alt="tutor" />
+                    
                  </div>
 
                  </div>

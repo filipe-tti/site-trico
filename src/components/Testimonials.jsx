@@ -8,22 +8,22 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const testimonials = [
   {
     author: "TOUCA PARA RECÉM NASCIDO",
-    image: tutor2,
+    
     
   },
   {
     author: "CHAVEIRO BOLA",
-    image: tutor2,
+    
     
   },
   {
     author: "Quadrado clássico",
-    image: tutor2,
+    
    
   },
   {
     author: "Decoração de natal",
-    image: tutor2,
+    
    
   },
 ];
