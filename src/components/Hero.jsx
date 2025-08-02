@@ -3,7 +3,7 @@ import {YoutubeLogo} from "@phosphor-icons/react/dist/ssr";
 
 function Hero() {
   return (
-     <section className="text-white relative overflow-x-hidden bg-[url('../../public/images/hero/foto-fundo.png')] bg-cover">
+     <section className="text-white relative overflow-x-hidden bg-[url('/site-trico/images/hero/foto-fundo.png')] bg-cover">
            
          
 
