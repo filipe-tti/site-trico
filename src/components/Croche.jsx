@@ -30,7 +30,7 @@ const testimonials = [
   },
 ];
 
-function Testimonials() {
+function Croche() {
 
 
     const [emblaRef, emblaApi] = useEmblaCarousel({
@@ -56,7 +56,7 @@ function Testimonials() {
               <div className="pb-12 flex">
                 {testimonials.map((item, index) => (
                   <div key={index} className="flex-[0_0_100%] min-w-0  px-3">
-                    <article className="bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
+                    <article className="bg-[#654321] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
                       <div className="flex flex-col items-center text-center space-y-4">
 
                         <p className="font-bold">{item.author}</p>
@@ -65,7 +65,7 @@ function Testimonials() {
                           <img src={item.image} alt="" className="w-100 h-80" />  
                         </div>
 
-                           <div className='rounded mt-4 bg-gray-500 hover:bg-gray-600 px-5 py-2'>
+                           <div className='rounded mt-4 bg-[#a76d44] hover:bg-[#794e2f] px-5 py-2'>
                                                              <a href="#">VER RECEITA</a>
                                                         </div>
                        
@@ -98,4 +98,4 @@ function Testimonials() {
   );
 }
 
-export default Testimonials;
+export default Croche;

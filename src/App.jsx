@@ -1,8 +1,8 @@
 import MeuBotao from './components/MeuBotao';
 import Hero from './components/Hero';
 import About from './components/About';
-import Services from './components/Services';
-import Testimonials from './components/Testimonials';
+import Trico from './components/Trico';
+import Croche from './components/Croche';
 import Footer from './components/Footer';
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
      {/* <MeuBotao /> */}
       <Hero/>
       <About/>
-      <Services/>
-      <Testimonials/>
+      <Trico/>
+      <Croche/>
       <Footer/>
     </div>
   );

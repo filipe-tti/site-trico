@@ -37,7 +37,7 @@ const servic = [
 ]
 
 
-function Services () {
+function Trico () {
 
         const [emblaRef, emblaApi] = useEmblaCarousel({
         loop: false,
@@ -72,7 +72,7 @@ function Services () {
                             <div className='flex'>
                                 {servic.map((item, index) => (
                                     <div key={index} className="flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)] px-3">
-                                        <article className='bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col'>
+                                        <article className='bg-[#3e3939] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col'>
 
                                             <div className='flex-1 flex items-start justify-between '>
                                                 
@@ -87,7 +87,7 @@ function Services () {
                                                         
                                                         </div>
 
-                                                        <div className='rounded mt-4 bg-gray-500 hover:bg-gray-600 px-5 py-2'>
+                                                        <div className='rounded mt-4 bg-[#2c2a29] hover:bg-[#121110] px-5 py-2'>
                                                              <a href="#">VER RECEITA</a>
                                                         </div>
                                                         
@@ -131,4 +131,4 @@ function Services () {
   );
 }
 
-export default Services;
+export default Trico;

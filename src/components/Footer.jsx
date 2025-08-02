@@ -21,7 +21,7 @@ function Footer() {
       <div className="container mx-auto px-4">
        
        
- <section class="bg-pink-100 py-16 px-6 md:px-20 rounded-2xl shadow-xl mt-10">
+ <section class="bg-[#f5d5c6] py-16 px-6 md:px-20 rounded-2xl shadow-xl mt-10">
   <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
     
     
@@ -72,9 +72,9 @@ function Footer() {
                  
                     <div className="justify-center flex items-center gap-2 mt-4">
                       
-                      <a href="#" className="text-3xl w-12 h-12 hover:text-yellow-500" target="_blank"> <FacebookLogo/> </a>
-                     <a href="https://www.instagram.com/neia.oliveira.atelie/" className="text-3xl w-12 h-12 hover:text-yellow-500" target="_blank"> <InstagramLogo/> </a>
-                     <a href="https://www.youtube.com/@neiaoliveiratrico" className="text-3xl w-12 h-12 hover:text-yellow-500" target="_blank"> <YoutubeLogo/> </a>
+                      <a href="#" className="text-3xl w-12 h-12 hover:text-[#a7848b]" target="_blank"> <FacebookLogo/> </a>
+                     <a href="https://www.instagram.com/neia.oliveira.atelie/" className="text-3xl w-12 h-12 hover:text-[#a7848b]" target="_blank"> <InstagramLogo/> </a>
+                     <a href="https://www.youtube.com/@neiaoliveiratrico" className="text-3xl w-12 h-12 hover:text-[#a7848b]" target="_blank"> <YoutubeLogo/> </a>
                     
                    
 

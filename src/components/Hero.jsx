@@ -1,5 +1,5 @@
 
-
+import {YoutubeLogo} from "@phosphor-icons/react/dist/ssr";
 
 function Hero() {
   return (
@@ -23,6 +23,8 @@ function Hero() {
                                 href={`https://wa.me/5547996655148?text=Olá vim pelo site e gostaria de mais informações`}
                                 className="bg-gray-500 hover:bg-gray-600  px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
                                 >
+
+                                <YoutubeLogo className='w-5 h-5'/>
                                 Canal no Youtube
                                 
 
