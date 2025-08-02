@@ -10,12 +10,12 @@ const About = () => {
                     <div className="relative">
 
 
-                <div className=" bg-[url('../../public/images/about/foto-about01.png')] bg-cover relative w-full h-[400px] rounded-3xl overflow-hidden">
+                <div className=" bg-[url('site-trico/images/about/foto-about01.png')] bg-cover relative w-full h-[400px] rounded-3xl overflow-hidden">
                     
 
                 </div>
 
-                <div className="bg-[url('../../public/images/about/foto-about02.png')] bg-cover absolute w-40 h-40 right-4 -bottom-8 border-4 rounded-lg overflow-hidden border-white">
+                <div className="bg-[url('site-trico/images/about/foto-about02.png')] bg-cover absolute w-40 h-40 right-4 -bottom-8 border-4 rounded-lg overflow-hidden border-white">
                     
 
                 </div>

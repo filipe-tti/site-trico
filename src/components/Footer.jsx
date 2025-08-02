@@ -45,7 +45,7 @@ function Footer() {
   
     <div class="flex justify-center md:justify-end">
       <img
-        src="../../public/images/footer/foto-loja-receitas.png"
+        src="/site-trico/images/footer/foto-loja-receitas.png"
         alt="Receitas de tricô"
         class="w-full max-w-md rounded-2xl shadow-lg"
       />
