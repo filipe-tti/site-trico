@@ -58,9 +58,9 @@ function Footer() {
        
 
               <div>
-                <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
-                <p>Email: contato.neiaoliverartes@gmail.com </p>  
-                <p>Telefone: (47) 9.8908-6759</p>  
+                <h3 className="text-2xl sm:text-2xl font-semibold mb-2">Contatos</h3>
+                <p className="text-sm sm:text-base md:text-lg">Email: contato.neiaoliverartes@gmail.com </p>  
+                <p className="text-sm sm:text-base md:text-lg">Telefone: (47) 9.8908-6759</p>  
                 
               </div>
 
@@ -68,7 +68,7 @@ function Footer() {
               <div>
 
                   
-                  <h3 className="text-2xl font-semibold mb-2">Redes Sociais</h3>
+                  <h3 className="text-2xl sm:text-2xl font-semibold mb-2">Redes Sociais</h3>
                  
                     <div className="justify-center flex items-center gap-2 mt-4">
                       

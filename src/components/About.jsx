@@ -9,7 +9,7 @@ const About = () => {
 
                     <div className="relative">
 
-
+                                 
                 <div className=" bg-[url('/site-trico/images/about/foto-about01.png')] bg-cover relative w-full h-[400px] rounded-3xl overflow-hidden">
                     
 
