@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="p-4">
+    <div>
       {/*<h1 className="text-3xl font-bold text-blue-600 mb-4">Tailwind está funcionando!</h1> */}
      {/* <MeuBotao /> */}
       <Hero/>
