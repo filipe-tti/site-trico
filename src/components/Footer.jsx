@@ -20,9 +20,10 @@ function Footer() {
           <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div class="text-center md:text-left">
               <h2 class="text-4xl font-extrabold text-pink-800 mb-4 leading-snug">
-                Transforme fios em arte! Acesse nossas receitas de tricô e liberte sua criatividade.
+                Transforme fios em arte! Acesse nossas receitas de tricô e
+                liberte sua criatividade.
               </h2>
-              
+
               <a
                 href="/loja"
                 class="inline-block bg-pink-600 text-white font-semibold py-3 px-8 rounded-xl shadow hover:bg-pink-700 transition"
@@ -43,45 +44,45 @@ function Footer() {
 
         <footer className="flex flex-col md:flex-row items-center text-center justify-center gap-6 md:gap-20 py-4 mt-14">
           <div>
-           <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold mb-2">
-  Contatos
-</h3>
+            <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold mb-2">
+              Redes Sociais
+            </h3>
+
+            <div className="justify-center flex items-center gap-2 mt-4">
+              <a
+                href="https://www.facebook.com/Neinha.atelie"
+                className="flex items-center justify-center text-xl sm:text-2xl md:text-3xl w-10 h-10 sm:w-12 sm:h-12 hover:text-[#a7848b]"
+                target="_blank"
+              >
+                <FacebookLogo />
+              </a>
+              <a
+                href="https://www.instagram.com/neia.oliveira.atelie/"
+                className="flex items-center justify-center text-xl sm:text-2xl md:text-3xl w-10 h-10 sm:w-12 sm:h-12 hover:text-[#a7848b]"
+                target="_blank"
+              >
+                <InstagramLogo />
+              </a>
+              <a
+                href="https://www.youtube.com/@neiaoliveiratrico"
+                className="flex items-center justify-center text-xl sm:text-2xl md:text-3xl w-10 h-10 sm:w-12 sm:h-12 hover:text-[#a7848b]"
+                target="_blank"
+              >
+                <YoutubeLogo />
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold mb-2">
+              Contato
+            </h3>
             <p className="text-sm sm:text-base md:text-lg">
               Email: contato.neiaoliverartes@gmail.com{" "}
             </p>
             <p className="text-sm sm:text-base md:text-lg">
               Telefone: (47) 9.8908-6759
             </p>
-          </div>
-
-          <div>
-            <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold mb-2">
-              Redes Sociais
-            </h3>
-
-          <div className="justify-center flex items-center gap-2 mt-4">
-  <a
-    href="#"
-    className="flex items-center justify-center text-xl sm:text-2xl md:text-3xl w-10 h-10 sm:w-12 sm:h-12 hover:text-[#a7848b]"
-    target="_blank"
-  >
-    <FacebookLogo />
-  </a>
-  <a
-    href="https://www.instagram.com/neia.oliveira.atelie/"
-    className="flex items-center justify-center text-xl sm:text-2xl md:text-3xl w-10 h-10 sm:w-12 sm:h-12 hover:text-[#a7848b]"
-    target="_blank"
-  >
-    <InstagramLogo />
-  </a>
-  <a
-    href="https://www.youtube.com/@neiaoliveiratrico"
-    className="flex items-center justify-center text-xl sm:text-2xl md:text-3xl w-10 h-10 sm:w-12 sm:h-12 hover:text-[#a7848b]"
-    target="_blank"
-  >
-    <YoutubeLogo />
-  </a>
-</div>
           </div>
         </footer>
       </div>

@@ -70,12 +70,12 @@ function Croche() {
     </div>
 
     <div className="mt-4">
-      <a
-        href="#"
-        className="inline-block px-5 py-2 rounded-lg bg-[#a76d44] hover:bg-[#794e2f] shadow-md hover:shadow-lg transition"
-      >
-        VER RECEITA
-      </a>
+<a
+  href="#"
+  className="inline-block px-6 py-3 rounded-lg bg-[#a76d44] hover:bg-[#794e2f] shadow-md hover:shadow-xl transition transform hover:scale-105 duration-200 ease-in-out cursor-pointer hover:brightness-110 text-white font-semibold"
+>
+  VER RECEITA
+</a>
     </div>
     
   </div>

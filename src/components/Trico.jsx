@@ -88,12 +88,12 @@ function Trico () {
     </div>
 
     <div className="mt-4">
-      <a
-        href="#"
-        className="inline-block px-5 py-2 rounded-lg bg-[#2c2a29] hover:bg-[#121110] shadow-md hover:shadow-lg transition"
-      >
-        VER RECEITA
-      </a>
+   <a
+  href="#"
+  className="inline-block px-5 py-2 rounded-lg bg-[#2c2a29] hover:bg-[#121110] shadow-md hover:shadow-xl transition duration-300 ease-in-out hover:brightness-110"
+>
+  VER RECEITA
+</a>
     </div>
 
   </div>

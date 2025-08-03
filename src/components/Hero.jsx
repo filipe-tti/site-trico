@@ -20,7 +20,7 @@ function Hero() {
                             <div className="pb-8 justify-items-start flex gap-3" >
                                 <a
                                 target='_blank'
-                                href={`https://wa.me/5547996655148?text=Olá vim pelo site e gostaria de mais informações`}
+                                href={"https://www.youtube.com/@neiaoliveiratrico"}
                                 className="bg-gray-500 hover:bg-gray-600  px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
                                 >
 
