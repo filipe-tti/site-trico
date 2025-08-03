@@ -46,7 +46,7 @@ function Footer() {
           </div>
         </section>
 
-        <footer className="flex items-center text-center justify-center gap-20 py-4 mt-14">
+        <footer className="flex flex-col md:flex-row items-center text-center justify-center gap-6 md:gap-20 py-4 mt-14">
           <div>
            <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold mb-2">
   Contatos
@@ -64,31 +64,29 @@ function Footer() {
               Redes Sociais
             </h3>
 
-            <div className="justify-center flex items-center gap-2 mt-4">
-              <a
-                href="#"
-                className="text-xl sm:text-2xl md:text-3xl w-10 h-10 sm:w-12 sm:h-12 hover:text-[#a7848b]"
-                target="_blank"
-              >
-                <FacebookLogo />
-              </a>
-              <a
-                href="https://www.instagram.com/neia.oliveira.atelie/"
-                 className="text-xl sm:text-2xl md:text-3xl w-10 h-10 sm:w-12 sm:h-12 hover:text-[#a7848b]"
-                target="_blank"
-              >
-                {" "}
-                <InstagramLogo />{" "}
-              </a>
-              <a
-                href="https://www.youtube.com/@neiaoliveiratrico"
-                 className="text-xl sm:text-2xl md:text-3xl w-10 h-10 sm:w-12 sm:h-12 hover:text-[#a7848b]"
-                target="_blank"
-              >
-                {" "}
-                <YoutubeLogo />{" "}
-              </a>
-            </div>
+          <div className="justify-center flex items-center gap-2 mt-4">
+  <a
+    href="#"
+    className="flex items-center justify-center text-xl sm:text-2xl md:text-3xl w-10 h-10 sm:w-12 sm:h-12 hover:text-[#a7848b]"
+    target="_blank"
+  >
+    <FacebookLogo />
+  </a>
+  <a
+    href="https://www.instagram.com/neia.oliveira.atelie/"
+    className="flex items-center justify-center text-xl sm:text-2xl md:text-3xl w-10 h-10 sm:w-12 sm:h-12 hover:text-[#a7848b]"
+    target="_blank"
+  >
+    <InstagramLogo />
+  </a>
+  <a
+    href="https://www.youtube.com/@neiaoliveiratrico"
+    className="flex items-center justify-center text-xl sm:text-2xl md:text-3xl w-10 h-10 sm:w-12 sm:h-12 hover:text-[#a7848b]"
+    target="_blank"
+  >
+    <YoutubeLogo />
+  </a>
+</div>
           </div>
         </footer>
       </div>
