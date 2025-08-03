@@ -48,9 +48,9 @@ function Footer() {
 
         <footer className="flex items-center text-center justify-center gap-20 py-4 mt-14">
           <div>
-            <h3 className="text-2xl sm:text-1xl font-semibold mb-2">
-              Contatos
-            </h3>
+           <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold mb-2">
+  Contatos
+</h3>
             <p className="text-sm sm:text-base md:text-lg">
               Email: contato.neiaoliverartes@gmail.com{" "}
             </p>
@@ -60,7 +60,7 @@ function Footer() {
           </div>
 
           <div>
-            <h3 className="text-2xl sm:text-1xl font-semibold mb-2">
+            <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold mb-2">
               Redes Sociais
             </h3>
 
