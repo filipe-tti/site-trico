@@ -72,34 +72,33 @@ function Trico () {
                             <div className='flex'>
                                 {servic.map((item, index) => (
                                     <div key={index} className="flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)] px-3">
-                                        <article className='bg-[#3e3939] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col'>
+                                        <article className="bg-[#3e3939] text-white rounded-2xl shadow-md p-6 space-y-4 h-full flex flex-col items-center text-center">
 
-                                            <div className='flex-1 flex items-start justify-between '>
-                                                
-                                                   
-                                                    <div className='items-center text-center'>
-                                                        <h3 className='font-bold text-xl my-1'>{item.title}</h3>
+  <div className="flex-1 flex flex-col items-center justify-center">
+    
+    <h3 className="font-bold text-xl my-2">{item.title}</h3>
 
-                                                        
+    {/* Container com overflow hidden para aplicar o zoom corretamente */}
+    <div className="overflow-hidden rounded-xl shadow-md w-full max-w-[160px]">
+      <img
+        src={item.image}
+        alt=""
+        className="w-full h-40 object-cover transition-transform duration-300 hover:scale-105"
+      />
+    </div>
 
-                                                        <div>
-                                                          <img src={item.image} alt="" className="w-40 h-40" />  
-                                                        
-                                                        </div>
+    <div className="mt-4">
+      <a
+        href="#"
+        className="inline-block px-5 py-2 rounded-lg bg-[#2c2a29] hover:bg-[#121110] shadow-md hover:shadow-lg transition"
+      >
+        VER RECEITA
+      </a>
+    </div>
 
-                                                        <div className='rounded mt-4 bg-[#2c2a29] hover:bg-[#121110] px-5 py-2'>
-                                                             <a href="#">VER RECEITA</a>
-                                                        </div>
-                                                        
-                                                        
-                                                    </div>
+  </div>
 
-                                                
-                                            </div>
-
-                                           
-
-                                        </article>
+</article>
                                         
                                     </div>
                                 

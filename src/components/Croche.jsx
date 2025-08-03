@@ -56,23 +56,30 @@ function Croche() {
               <div className="pb-12 flex">
                 {testimonials.map((item, index) => (
                   <div key={index} className="flex-[0_0_100%] min-w-0  px-3">
-                    <article className="bg-[#654321] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
-                      <div className="flex flex-col items-center text-center space-y-4">
+                   <article className="bg-[#654321] text-white rounded-2xl shadow-md p-6 space-y-4 h-full flex flex-col items-center text-center">
+  <div className="flex flex-col items-center space-y-4">
+    
+    <p className="font-bold">{item.author}</p>
 
-                        <p className="font-bold">{item.author}</p>
-                       
-                        <div>
-                          <img src={item.image} alt="" className="w-100 h-80" />  
-                        </div>
+    <div className="overflow-hidden rounded-xl shadow-md w-full max-w-xs">
+      <img
+        src={item.image}
+        alt=""
+        className="w-full h-64 object-cover transition-transform duration-300 hover:scale-105"
+      />
+    </div>
 
-                           <div className='rounded mt-4 bg-[#a76d44] hover:bg-[#794e2f] px-5 py-2'>
-                                                             <a href="#">VER RECEITA</a>
-                                                        </div>
-                       
-
-                
-                      </div>
-                    </article>
+    <div className="mt-4">
+      <a
+        href="#"
+        className="inline-block px-5 py-2 rounded-lg bg-[#a76d44] hover:bg-[#794e2f] shadow-md hover:shadow-lg transition"
+      >
+        VER RECEITA
+      </a>
+    </div>
+    
+  </div>
+</article>
                   </div>
                 ))}
               </div>

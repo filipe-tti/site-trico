@@ -20,19 +20,14 @@ function Footer() {
           <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div class="text-center md:text-left">
               <h2 class="text-4xl font-extrabold text-pink-800 mb-4 leading-snug">
-                Transforme fios em amor: <br />
-                descubra nossas receitas exclusivas de tricô <br />e crie peças
-                cheias de carinho
+                Transforme fios em arte! Acesse nossas receitas de tricô e liberte sua criatividade.
               </h2>
-              <p class="text-lg text-pink-700 mb-6">
-                Sua próxima criação começa aqui! Explore nossa loja de receitas
-                de tricô e mãos à obra.
-              </p>
+              
               <a
                 href="/loja"
                 class="inline-block bg-pink-600 text-white font-semibold py-3 px-8 rounded-xl shadow hover:bg-pink-700 transition"
               >
-                Explorar agora
+                Ir para Loja!
               </a>
             </div>
 
